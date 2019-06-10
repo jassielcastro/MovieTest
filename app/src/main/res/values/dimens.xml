@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rateTextSize">40sp</dimen>
+    <dimen name="exLargeTextSize">24sp</dimen>
+    <dimen name="largeTextSize">20sp</dimen>
+    <dimen name="mediumTextSize">16sp</dimen>
+    <dimen name="normalTextSize">12sp</dimen>
+    <dimen name="smallTextSize">8sp</dimen>
+</resources>

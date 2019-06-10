@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent" android:layout_width="180dp">
+
+    <customviews.ImageMovieView
+            android:id="@+id/imgMovieFull"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@color/gradient_gray"
+            android:layout_centerInParent="true">
+
+        <customviews.autoresize.AutoResizeTextView
+                android:id="@+id/txtTitleMovie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_sample_rate"
+                android:textSize="@dimen/normalTextSize"
+                android:gravity="center"
+                app:minSize="@dimen/smallTextSize"
+                app:maxSize="@dimen/mediumTextSize"
+                android:maxLines="1"
+                android:ellipsize="end"
+                app:fontFamily="@font/monserrat"
+                android:shadowColor="@android:color/black"
+                android:shadowRadius="8"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:layout_marginBottom="8dp"
+                android:textColor="@android:color/white"/>
+
+        <customviews.autoresize.AutoResizeTextView
+                android:id="@+id/txtReleaseDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_sample_rate"
+                android:textSize="@dimen/normalTextSize"
+                android:gravity="center"
+                app:minSize="@dimen/smallTextSize"
+                app:maxSize="@dimen/mediumTextSize"
+                android:textStyle="bold"
+                app:fontFamily="@font/monserrat"
+                android:shadowColor="@android:color/black"
+                android:shadowRadius="8"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

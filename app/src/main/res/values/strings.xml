@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RappiMoviewer</string>
+    <string name="title_populates">Populares</string>
+    <string name="title_top_rate">Top rate</string>
+    <string name="hint_search">Buscar</string>
+    <string name="txt_sample_rate">5.0</string>
+    <string name="txt_title_404_error">¡Ups! No se encontraron resultados, inténtalo de nuevo…</string>
+    <string name="txt_sample_date">22 May, 2019</string>
+    <string name="txt_count_votaciones">%s votaciones</string>
+    <string name="txt_play_trailer">Reproducir trailer</string>
+    <string name="txt_movie_desc">Descripción</string>
+    <string name="txt_about_film">Acerca del film</string>
+    <string name="txt_original_title">Título original</string>
+    <string name="txt_original_language">Lenguaje original</string>
+    <string name="txt_promotional_page">Página promocional</string>
+    <string name="txt_invalid_movie_id">Ocurrió un error al cargar la película…</string>
+    <string name="txt_default_result">Sin resultados…</string>
+    <string name="cancel">Cancelar</string>
+    <string name="select_a_video">Selecciona un video</string>
+    <string name="txt_search_more">Buscar</string>
+</resources>

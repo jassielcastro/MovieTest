@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp">
+
+    <customviews.autoresize.AutoResizeTextView
+            android:id="@+id/txtGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/txt_sample_date"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:textSize="@dimen/normalTextSize"
+            app:minSize="@dimen/smallTextSize"
+            app:maxSize="@dimen/largeTextSize"/>
+
+</androidx.cardview.widget.CardView>
