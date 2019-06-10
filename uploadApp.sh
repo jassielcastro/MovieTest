@@ -37,7 +37,7 @@ uploadChanges()
 
 pullChanges()
 {
-   git pull origin ${branch}  
+   git pull origin ${branch} --allow-unrelated-histories
 }
 
 ARGS=$(getopt -q "pus:b:" -l "pull,upload,ssh:,branch:" -n "Comments" -comment "$@");
