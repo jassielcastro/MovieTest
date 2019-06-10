@@ -2,6 +2,12 @@
 
 App básica para consumo de API https://developers.themoviedb.org/ en Android
 
+![alt text](https://github.com/JassielMelgoza/MovieTest/tree/master/screenshots/Screenshot_1560200672.png)
+
+![alt text](https://github.com/JassielMelgoza/MovieTest/tree/master/screenshots/Screenshot_1560200701.png)
+
+![alt text](https://github.com/JassielMelgoza/MovieTest/tree/master/screenshots/Screenshot_1560200702.png)
+
 Descripción de contenido:
 
 Capas:
