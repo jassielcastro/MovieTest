@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools" package="com.example.rappimoviewer">
+          xmlns:tools="http://schemas.android.com/tools" package="com.example.tmdb">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -16,7 +16,7 @@
             tools:ignore="AllowBackup,GoogleAppIndexingWarning"
             tools:targetApi="n">
 
-        <activity android:name=".ui.activities.MainActivity"
+        <activity android:name="com.example.tmdb.ui.activities.MainActivity"
                   android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -25,10 +25,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ui.activities.MovieDetailActivity"
+        <activity android:name="com.example.tmdb.ui.activities.MovieDetailActivity"
                   android:screenOrientation="portrait"/>
 
-        <activity android:name=".ui.activities.SearchActivity"
+        <activity android:name="com.example.tmdb.ui.activities.SearchActivity"
                   android:screenOrientation="portrait"
                   android:windowSoftInputMode="stateAlwaysVisible"/>
     </application>

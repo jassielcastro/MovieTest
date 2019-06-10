@@ -8,7 +8,7 @@ import android.text.TextPaint
 import android.util.AttributeSet
 import android.util.TypedValue
 import androidx.appcompat.widget.AppCompatButton
-import com.example.rappimoviewer.R
+import com.example.tmdb.R
 
 class AutoResizeButton : AppCompatButton, ResizeBase {
 

@@ -9,10 +9,10 @@ import android.widget.RelativeLayout
 import androidx.appcompat.widget.AppCompatImageView
 import com.airbnb.lottie.LottieAnimationView
 import com.airbnb.lottie.LottieDrawable
-import com.example.rappimoviewer.extensions.dp
-import com.example.rappimoviewer.extensions.toPx
-import com.example.rappimoviewer.presenter.LoadImagePresenter
-import com.example.rappimoviewer.view.LoadImageViewImpl
+import extensions.dp
+import extensions.toPx
+import com.example.tmdb.presenter.LoadImagePresenter
+import com.example.tmdb.view.LoadImageViewImpl
 
 class ImageMovieView : RelativeLayout, LoadImageViewImpl {
 

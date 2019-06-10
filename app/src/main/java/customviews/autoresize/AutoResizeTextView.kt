@@ -8,7 +8,7 @@ import android.text.TextPaint
 import android.util.AttributeSet
 import android.util.TypedValue
 import androidx.appcompat.widget.AppCompatTextView
-import com.example.rappimoviewer.R
+import com.example.tmdb.R
 
 class AutoResizeTextView : AppCompatTextView, ResizeBase {
 
