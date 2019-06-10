@@ -6,7 +6,7 @@ App básica para consumo de API https://developers.themoviedb.org/ en Android
 
 ![Screenshot](screenshots/Screenshot_1560200701.png)
 
-![Screenshot](screenshots/Screenshot_1560200702.png)
+![Screenshot](screenshots/Screenshot_1560200707.png)
 
 
 Descripción de contenido:
