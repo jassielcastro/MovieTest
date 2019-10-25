@@ -6,7 +6,7 @@ sealed class ApiRoute {
 
     private val apiKey: String
         get() {
-            return "0fe985cbb1472382e0f85e8f01aa1ce4"
+            return ""
         }
 
     val timeOut: Int
